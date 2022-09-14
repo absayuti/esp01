@@ -1,2 +1,2 @@
 # esp01
-For programs for/related to ESP-01
+For programs for ESP-01 or related to ESP-01
