@@ -1,8 +1,8 @@
-# esp01
-# For programs for ESP-01 or related to ESP-01
+// esp01
+// For programs for ESP-01 or related to ESP-01
 
-ESP-01 dan Arduino IDE
-Memprogram Modul ESP-01 dengan Perisian Arduino IDE
+#ESP-01 dan Arduino IDE
+#Memprogram Modul ESP-01 dengan Perisian Arduino IDE
 
 Apa itu Modul ESP-01?
 Modul Wifi berasaskan mikrokontroler ESP8266
