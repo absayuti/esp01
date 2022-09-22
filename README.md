@@ -1,6 +1,3 @@
-// esp01
-// For programs for ESP-01 or related to ESP-01
-
 #ESP-01 dan Arduino IDE
 #Memprogram Modul ESP-01 dengan Perisian Arduino IDE
 
