@@ -8,8 +8,8 @@
 #include <ESP8266WiFi.h>
 
 // Wifi credentials
-const char *ssid = "RumahSaya@unifi";
-const char *password = "myctsalwa";
+const char *ssid = "xxxxxxxxxxx";
+const char *password = "yyyyyyyyyy";
 
 void setup() 
 {
