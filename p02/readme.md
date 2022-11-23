@@ -1,14 +1,15 @@
-##ESP-01, Wi-Fi dan Internet
+## ESP-01, Wi-Fi dan Internet
 
-Perkakasan dan Perisian yg diperlukan
-Perisian Arduino IDE
-Modul Wi-Fi ESP-01
-Papan Pengaturcara (programmer board) ESP-01
+### Perkakasan dan Perisian yg diperlukan
+* Perisian Arduino IDE
+* Modul Wi-Fi ESP-01
+* Papan Pengaturcara (programmer board) ESP-01
 atau USB-ESP01 Adapter board yang telah diubahsuai 
-Wi-Fi Router / Access Point
-SSID dan password (untuk login ke Wi-Fi)
+* Wi-Fi Router / Access Point
+* SSID dan password (untuk login ke Wi-Fi)
 
-Sketch P2: IP address
+### Sketch P2: IP address
+```
 /*******************************************************************************
   Sketch P02 
 
@@ -50,4 +51,6 @@ void loop()
   Serial.println(rssi);
   delay(1000);
 }
+```
 
+Related [YouTube Video](https://youtu.be/jEXig0HOGm0) available.
