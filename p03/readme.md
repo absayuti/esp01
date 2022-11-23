@@ -34,4 +34,4 @@ Menyambung Modul ESP-01 ke Modul Paparan LCD 16x2
 * https://simple-circuit.com/esp8266-esp-01-i2c-lcd/
 * https://forum.arduino.cc/t/a-problem-with-my-liquidcrystal_i2c-display/348684/7
 
-Youtube video [available here](https://youtu.be/_KkJnoVWE6o).
+Youtube video [available here](https://pages.github.com/)
