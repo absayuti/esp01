@@ -32,8 +32,8 @@ inline size_t LiquidCrystal_I2C::write(uint8_t value) {
 }
 
 // Wifi credentials
-const char *ssid = "RumahSaya-5Ghz@unifi";
-const char *password = "myctsalwa";
+const char *ssid = "***********";
+const char *password = "********";
 
 WiFiUDP ntpUDP;                     // Create an instance of the WiFi UDP class
 
