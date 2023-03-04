@@ -148,29 +148,29 @@ void loop()
     last_second = second_;
   }
   
-  if( loopcount==0 ) {								// Fetch weather data at start and every 30 minutes 
-		getWeather();
-	}
-	loopcount++;
-	if( loopcount==1800 ) loopcount = 0;		// Reset counter every 30 minutes, if delay is 1 second
+  if( loopcount==0 ) {					// Fetch weather data at start and every 30 minutes 
+	getWeather();
+  }
+  loopcount++;
+  if( loopcount==1800 ) loopcount = 0;		// Reset counter every 30 minutes, if delay is 1 second
   
   // Switch output between TIME and WEATHER
-	int remain = loopcount%10;
-	switch( remain ) {
-  	case 0: 
-      			lcd.clear();
-    				printTime();
-  					break;
-  	case 5: 
-            lcd.clear();
-  					printWeather();
-  					break;
-    case 6:
-    case 7:
-    case 8:
-    case 9:
-  					printWeather();
-  					break;    
+  int remain = loopcount%10;
+  switch( remain ) {
+  case 0: 
+  	lcd.clear();
+    	printTime();
+  	break;
+  case 5: 
+        lcd.clear();
+  	printWeather();
+  	break;
+  case 6:
+  case 7:
+  case 8:
+  case 9:
+  	printWeather();
+  	break;    
   }
   
   delay(1000);
@@ -245,10 +245,10 @@ void getWeather( void )
       Serial.println("Parsing input failed!");
     }
     else {
-			weather = JSON.stringify(myObject["weather"][0]["main"]);
-			int n = weather.length();
-			weather.remove(n-1,1);
-			weather.remove(0,1);
+      weather = JSON.stringify(myObject["weather"][0]["main"]);
+      int n = weather.length();
+      weather.remove(n-1,1);
+      weather.remove(0,1);
 			
       String temp = JSON.stringify(myObject["main"]["temp"]);
       temperature = temp.toInt() - 273.15;
