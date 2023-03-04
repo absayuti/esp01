@@ -51,8 +51,8 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 // Wifi credentials
-const char *ssid = "RumahSaya@unifi";
-const char *password = "myctsalwa";
+const char *ssid = "??????????";
+const char *password = "??????????";
 
 String openWeatherMapApiKey = "d5f092a1e6acb4ecd3c6da55271a573f";
 String city = "Simpang Pulai";
