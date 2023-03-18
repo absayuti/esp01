@@ -55,7 +55,7 @@ const char *ssid = "??????????";
 const char *password = "??????????";
 
 String openWeatherMapApiKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
-String city = "yyyyyyyyy";
+String city = "Kuala Lumpur";
 String countryCode = "MY";
 String jsonBuffer;
 String weather;
